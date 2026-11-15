@@ -6,7 +6,7 @@
 - Daniel Ischaber Xavier
 - Vinicius Daniel Santos
 - Felipe Gabriel Nogueira Aquino
-- 
+- Gabriel Luiz Drumond Oliveira
 
 ## Estrutura do projeto
 
