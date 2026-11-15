@@ -1,15 +1,12 @@
 # Nome do Jogo
-
-Projeto final da disciplina de Introdução a Algoritmos/Programação, desenvolvido com Python e Pygame.
-
-Este repositório é um template para os grupos da disciplina. A proposta é começar com uma base funcional e evoluir o jogo ao longo do semestre.
+  AI Challenge
 
 ## Integrantes do grupo
 
-- Nome do integrante 1
-- Nome do integrante 2
-- Nome do integrante 3
-- Nome do integrante 4
+- Daniel Ischaber Xavier
+- Vinicius Daniel Santos
+- Felipe Gabriel Nogueira Aquino
+- 
 
 ## Estrutura do projeto
 
@@ -22,19 +19,12 @@ Este repositório é um template para os grupos da disciplina. A proposta é com
 
 ## Descrição do jogo
 
-Descreva brevemente a ideia principal do jogo.
-
-Exemplo:
-
-> O jogo consiste em controlar um personagem que deve coletar moedas e evitar obstáculos. O jogador ganha pontos ao coletar itens e perde vidas ao colidir com obstáculos. A partida termina quando o tempo acaba ou quando o jogador perde todas as vidas.
+- AI Challenge é um quiz sobre o uso responsável de inteligência artificial. O apresentador mostra as perguntas num telão e os jogador respondem pelo executavel. Quem acerta mais rápido ganha mais pontos.
+As perguntas partem de situações do dia a dia: checar informações geradas por IA, proteger dados pessoais, evitar plágio, reconhecer vieses e deepfakes e declarar o uso de IA em trabalhos. Depois de cada pergunta, o jogo explica a resposta certa. Assim, além de competir, os jogador aprendem a usar a IA com senso crítico.
 
 ## Objetivo do jogador
 
-Explique o que o jogador precisa fazer para vencer ou avançar no jogo.
-
-Exemplo:
-
-> O objetivo é coletar a maior quantidade possível de itens antes que o tempo acabe, evitando colisões com os obstáculos.
+- Escolher a melhor resposta para ganhar pontos no painel.
 
 ## Regras do jogo
 
@@ -49,43 +39,8 @@ Exemplo:
 
 ## Controles
 
-Informe as teclas ou comandos utilizados no jogo.
-
-Exemplo:
-
-- Seta para cima: mover para cima
-- Seta para baixo: mover para baixo
-- Seta para esquerda: mover para esquerda
-- Seta para direita: mover para direita
-- Espaço: realizar ação
-- ESC: sair do jogo
+Jogar utilizara somente o clique esquerdo
 
 ## Como executar o projeto
 
-### 1. Clonar o repositório
-
-```bash
-git clone LINK_DO_REPOSITORIO
-cd NOME_DA_PASTA
-pip install -r requirements.txt
-python main.py
-```
-
-## Como executar os testes
-
-```bash
-python -m pytest
-```
-
-## Checklist mínimo para entrega
-
-- Preencher este README com nome final, descrição real, regras e controles do jogo.
-- Atualizar `docs/proposta.MD` com a proposta do grupo.
-- Garantir que o jogo executa com `python main.py`.
-- Garantir que os testes passam com `pytest`.
-
-## Observações para os alunos
-
-- Mantenham o código organizado em módulos pequenos e com responsabilidade clara.
-- Comentem partes importantes da lógica, principalmente regras do jogo.
-- Registrem decisões técnicas no README do grupo ao longo do desenvolvimento.
+- executando o código com comando start pelo terminal ou dando start pelo próprio vscode.
