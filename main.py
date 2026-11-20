@@ -6,7 +6,7 @@ pygame.init()
 LARGURA = 900
 ALTURA = 600
 tela = pygame.display.set_mode((LARGURA, ALTURA))
-pygame.display.set_caption("Quiz: IA Responsavel")
+pygame.display.set_caption("AI Challenge")
 relogio = pygame.time.Clock()
 
 BRANCO = (255, 255, 255)
@@ -234,7 +234,7 @@ def opcao_clicada(posicao):
 
 def desenhar_menu():
     tela.fill(ROXO)
-    desenhar_texto("QUIZ: IA RESPONSÁVEL", fonte_titulo, BRANCO, LARGURA // 2, 130)
+    desenhar_texto("AI CHALLENGE", fonte_titulo, BRANCO, LARGURA // 2, 130)
     desenhar_texto("Você sabe usar inteligência artificial do jeito certo?", fonte_media, BRANCO, LARGURA // 2, 210)
     desenhar_texto(f"Cada pergunta tem {TEMPO_NORMAL} segundos e vale {PONTOS_NORMAL} pontos.", fonte_pequena, BRANCO, LARGURA // 2, 290)
     desenhar_texto(f"A cada 3 perguntas vem uma BÔNUS: vale {PONTOS_BONUS}, mas só tem {TEMPO_BONUS} segundos!", fonte_pequena, DOURADO, LARGURA // 2, 325)
